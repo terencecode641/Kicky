@@ -1,0 +1,305 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.815rem;
+  letter-spacing: 0.4rem;
+}
+
+p {
+  font-family: 'Avenir LT Std', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.caption {
+  font-family: 'Avenir LT Std', sans-serif;
+  font-size: 0.813rem;
+  color: #ffffff;
+}
+
+.main-section {
+  padding: 0 8% 8%;
+}
+
+/* Pre-navbar Section */
+.pre-navbar {
+  background-color: #000000;
+}
+
+.pre-navbar-lang {
+  padding: 15px 0 0 37px;
+}
+
+.pre-navbar-lang .pre-navbar-caption {
+  padding: 0 15px;
+  border-right: 1px solid #ffffff;
+}
+
+.pre-navbar-caption {
+  display: inline-block;
+}
+
+.pre-navbar-return {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.return-cap {
+  color: #FED700;
+}
+
+.pre-navbar-action {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 52px;
+}
+
+.pre-navbar-action .pre-navbar-caption {
+  padding: 0 15px;
+  border-right: 1px solid #ffffff;
+}
+
+/* Navigation Bar Section */
+.nav-bar-section {
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+  padding-bottom: 16px;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+.navbar-nav {
+  margin-left: 16%;
+}
+
+#navbarTogglerDemo02 {
+  margin-right: 32px;
+}
+
+.navbar-text {
+  margin: 0 3%;
+}
+
+/* Hero banner Section */
+
+.banner-container {
+  margin-bottom: 30%;
+}
+
+.banner-img {
+  width: 100%;
+  position: absolute;
+}
+
+.title-text {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.big-title {
+  font-size: 5.96rem;
+  letter-spacing: 0.5rem;
+  padding: 4% 0 0 10%;
+}
+
+.big-subtitle {
+  font-size: 1.25rem;
+  padding-left: 10%;
+  color: #FED700;
+}
+
+/* Limited Edition Section */
+
+.le-title {
+  text-align: center;
+  padding: 12% 0 2%;
+}
+
+.le-body {
+  text-align: center;
+  padding: 0 20% 3%;
+}
+
+#carousel-row {
+  padding: 0 7% 15%;
+}
+
+/* New Arrival Section */
+
+.new-arrival-main-img {
+  width: 100%;
+}
+
+.na-title {
+  text-align: center;
+  padding: 3% 0 3%;
+}
+
+.na-image-row {
+  padding: 8% 0;
+}
+
+.na-image {
+  width: 100%;
+}
+
+.na-subtitle {
+  font-size: 1.953rem;
+  font-weight: 500;
+  padding: 16px 0;
+}
+
+.na-price {
+  opacity: 0.7;
+}
+
+/* Discover Section */
+
+.discover-title {
+  text-align: center;
+  padding: 0 0 2%;
+}
+
+.discover-caption {
+  font-family: 'Avenir LT Std', sans-serif;
+  font-size: 1rem;
+  color: black;
+  opacity: 0.7;
+  margin-bottom: 6%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.discover .le-body {
+  margin-bottom: 0;
+}
+
+.ds-img {
+  width: 100%;
+}
+
+.second-ds-row {
+  margin: 4% 0 12%;
+}
+
+/* Join Us Section */
+
+#join-us-btn {
+  margin: 2% auto 4%;
+  display: block;
+  border-radius: 50px;
+  padding: 12px 36px;
+}
+
+.na-price.warning {
+  padding: 0 32%
+}
+
+#join-us-btn:hover {
+  background-color: #666666;
+  border-color: #666666;
+}
+
+/* Footer Section */
+
+.footer-container {
+  padding: 2% 8%;
+  background-color: black;
+  color: white;
+}
+
+.footer-container .row {
+  padding: 2% 0;
+}
+
+.disclaimer {
+  padding: 3% 0 0;
+}
+
+#social {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.social-icon {
+  padding: 0 12px;
+}
+/* Large Screen */
+@media (max-width: 1252px) {
+  .navbar-text-abt {
+    display: none;
+  }
+}
+
+@media (max-width: 1116px) {
+  .navbar-text-le {
+    display: none;
+  }
+}
+
+
+/* Small & Medium Screen */
+
+@media (max-width: 992px) {
+  .pre-navbar {
+    display: none;
+  }
+
+  #navbar-mobile {
+    margin-left: 38px;
+  }
+
+  .navbar-text {
+    margin-left: 0;
+  }
+
+  #search-bar {
+    margin-left: 38px;
+  }
+
+  .big-title {
+    font-size: 4.768rem;
+    text-align: center;
+  }
+
+  .big-subtitle {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3.052rem;
+  }
+
+  .na-subtitle {
+    font-size: 1.563rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 2.441rem;
+  }
+
+  .big-title {
+    font-size: 3.815rem;
+    text-align: center;
+  }
+
+  .big-subtitle {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+
+}
